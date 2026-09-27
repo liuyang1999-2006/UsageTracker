@@ -3,6 +3,10 @@
 一个统计手机各应用屏幕使用时长的安卓 App。基于系统提供的 `UsageStatsManager`，
 不需要常驻后台服务，也不会上传任何数据——所有统计只在本地读取和展示。
 
+> This is a small app that can track app usage time on an Android phone. Limited by my poor programming skills and my wishful way of communicating with AI, the app falls short in some minor details, but it can already perform the basic functions.
+>
+> 一个可统计安卓手机上 app 使用时间的小程序，受限于本人贫瘠的编程水平和许愿式的 AI 沟通方式，这个 app 在一些小细节是不合格，但是已经可以实现基础功能。
+
 ## 功能
 
 - **五个时间维度**：今日 / 本周 / 本月 / 本年 / 本机（本周从周一开始；「本机」= 自手机启用以来至今——同时扫描按年与按月聚合桶的完整历史，取系统留存的最远时间作为起点，长区间自动改用聚合数据）
